@@ -2,7 +2,7 @@
 ## Function
 ### Function practice: #1
 
-Remember quadratic equations? They take the form a\mathrm{x}^{2}\ + bx + c = y. Write a function that takes four arguments and returns y.
+Remember quadratic equations? They take the form ax<sup>2</sup> + bx + c = y + bx + c = y. Write a function that takes four arguments and returns y.
 
 ### Function practice: #1-2
 
