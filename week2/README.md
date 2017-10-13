@@ -2,7 +2,7 @@
 ## Function
 ### Function practice: #1
 
-Remember quadratic equations? They take the form ax^2 + bx + c = y. Write a function that takes four arguments and returns y.
+Remember quadratic equations? They take the form a{x}^{2} + bx + c = y. Write a function that takes four arguments and returns y.
 
 ### Function practice: #1-2
 
@@ -17,7 +17,7 @@ From the lecture: Given a list of integers, e.g. [3, -1, 2, 0, 7, -5], return th
 ### Recursion practice #1
 Read the following code. What does it do? How many times is this function called, and with what arguments? Hint: try expanding the last statement with each new function call!
 
-```
+```python
 # assume n > 0
 def foo(n):
 	if n == 1:
@@ -33,14 +33,14 @@ def foo(n):
 
 ### Recursion practice #1-2
 What does this function return when x=36 and y=12? Can you come with a general description of what it does?
-```
+```python
 def mystery(x, y)
-		if x < y:
-			return mystery(x, y-x)
-		elif y < x:
-			return mystery(x-y, x):
-		else:
-			return x
+	if x < y:
+		return mystery(x, y-x)
+	elif y < x:
+		return mystery(x-y, x):
+	else:
+		return x
 ```
 
 
