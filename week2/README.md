@@ -1,8 +1,19 @@
 # CS97 Discussion, Week 2
+## What To Do If You Finish Early
+
+Everyone works at a different pace! If you happen to finish a problem in discussion section early, take the following three steps:
+
+1. Write "test cases" for your code. Test cases make sure your program returns the correct answer every time (including the wrong answer when it should be wrong!) What values would you put into your code to see if it works correctly? 
+
+2. Find someone else who finished early. Look at their code: did they do it differently and if so why?
+
+3. Help someone else! You can always work on your own homework or something else, but if you're feeling kind, try helping someone around you who's stuck.
+
+
 ## Function
 ### Function practice: #1
 
-Remember quadratic equations? They take the form ax<sup>2</sup> + bx + c = y + bx + c = y. Write a function that takes four arguments and returns y.
+Remember quadratic equations? They take the form ax<sup>2</sup> + bx + c = y. Write a function that takes four arguments and returns y.
 
 ### Function practice: #1-2
 
