@@ -2,7 +2,7 @@
 ## Function
 ### Function practice: #1
 
-Remember quadratic equations? They take the form a{x}^{2} + bx + c = y. Write a function that takes four arguments and returns y.
+Remember quadratic equations? They take the form a\mathrm{x}^{2}\ + bx + c = y. Write a function that takes four arguments and returns y.
 
 ### Function practice: #1-2
 
@@ -47,7 +47,7 @@ def mystery(x, y)
 ### Recursion practice #2
 
 Write code to reverse a list, making sure you use recursion in a useful way.
-```
+```python
 >>> revList([1,2,3,4])
 [4, 3, 2, 1]
 ```
