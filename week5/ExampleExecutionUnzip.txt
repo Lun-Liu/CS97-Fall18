@@ -1,0 +1,30 @@
+unzip([[1,11], [2,22], [3,33]]):
+    head = [1,11]
+    tail = [[2,22],[3,33]]
+    l1_head = 1
+    l2_head = 11
+    unzipped_tails = unzip([[2,22], [3,33]]):
+        head = [2,22]
+        tail = [[3,33]]
+        l1_head = 2
+        l2_head = 22
+        unzipped_tails = unzip([[3,33]]):
+            head = [3,33]
+            tail = []
+            l1_head = 3
+            l2_head = 33
+            unzipped_tails = unzip([]):
+                return [[], []]
+            unzipped_tails = [[], []]
+            l1_tail = []
+            l2_tail = []
+            return [[3] + [], [33] + []]
+        unzipped_tails = [[3], [33]]
+        l1_tail = [3]
+        l2_tail = [33]
+        return [[2] + [3], [22] + [33]]
+    unzipped_tail = [[2,3], [22,33]]
+    l1_tail = [2,3]
+    l2_tail = [22,33]
+    return [[1] + [2,3], [11] + [22,33]]
+[[1,2,3], [11,22,33]]
